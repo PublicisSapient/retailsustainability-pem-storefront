@@ -1,0 +1,52 @@
+.cardCarousel {
+  max-width: 1222px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.cardCarousel-pdp {
+  max-width: 650px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.cardCarousel .slick-track {
+  display: flex !important;
+}
+
+.cardCarousel-pdp .slick-track {
+  display: flex !important;
+}
+.cardCarousel .slick-list {
+  overflow: hidden;
+}
+.cardCarousel-pdp .slick-list {
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1249px) {
+  .cardCarousel {
+    max-width: 100vw;
+  }
+  .cardCarousel-pdp {
+    max-width: 100vw;
+  }
+}
+
+/* @media only screen and (max-width: 899px) {
+    .cardCarousel{
+        max-width: 100vw;
+    }
+  } */
+
+/* @media only screen and (max-width: 599px) {
+    .cardCarousel{
+        max-width: 1222px;
+    }
+  }
+  
+  @media only screen and (max-width: 374px) {
+    .cardCarousel{
+        max-width: 1222px;
+    }
+  } */

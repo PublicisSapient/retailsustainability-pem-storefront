@@ -1,0 +1,44 @@
+.offer {
+    background: var(--mui-palette-grey-900);
+    text-align: center;
+    padding: 4px 30px;
+    color: var(--mui-palette-white);
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.toolbar {
+    height: 90px;
+    &.float {
+        position: absolute;
+        z-index: 3;
+        background: white;
+        width: 100%;
+        visibility: hidden;
+        opacity: 0;
+        transition:all ease-in-out .2s;
+        &.searchOpen {
+            visibility: visible;
+            opacity: 1;
+        }
+        
+    }
+}
+.header{
+    top: 0;
+    z-index: 99;
+}
+
+button.postbtn {
+
+    box-shadow:none;
+    height: max-content;
+    &:hover {
+        box-shadow:none;
+    }
+}
+button .avatar {
+        width: 33px;
+        height: 33px;
+    }

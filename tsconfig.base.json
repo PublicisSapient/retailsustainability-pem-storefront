@@ -1,0 +1,27 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "strictNullChecks": false,
+    "baseUrl": ".",
+    "paths": {
+      "@p2p-exchange/core": ["libs/core/src/index.ts"],
+      "@p2p-exchange/shared": ["libs/shared/src/index.ts"],
+      "@p2p-exchange/shared/src/lib/components/alert-bar": [
+        "libs/shared/src/lib/components/alert-bar/src/index.ts"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

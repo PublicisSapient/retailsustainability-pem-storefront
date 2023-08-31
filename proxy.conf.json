@@ -1,0 +1,8 @@
+{
+    "/v1": {
+      "target": "https://p2pmarket.dev/api",
+      "secure": false,
+      "changeOrigin": true,
+      "logLevel": "debug"
+    }
+}
